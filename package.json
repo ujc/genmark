@@ -1,0 +1,29 @@
+{
+  "name": "genmark",
+  "version": "0.0.1",
+  "description": "A JSDoc-based README.md generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+
+  "bin": "./cli/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujc/genmark.git"
+  },
+  "keywords": [
+    "markdown",
+    "generator",
+    "jsdoc"
+  ],
+  "author": "Uri Chandler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ujc/genmark/issues"
+  },
+  "homepage": "https://github.com/ujc/genmark#readme",
+  "dependencies": {
+    "jsdoc": "^3.5.5"
+  }
+}
